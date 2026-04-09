@@ -1,0 +1,7 @@
+시장에 왔습니다!
+
+여기에 `apple` 이 있습니다.
+이것을 `hill` 로 가져가야 합니다.
+
+`apple` 을 `hill` 폴더로 복사해 보세요.
+힌트: `cp apple ../hill/apple`
