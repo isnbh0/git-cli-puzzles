@@ -1,0 +1,18 @@
+room13 에 도착했습니다.
+
+이 방은 cp 실력을 확인하는 우체국입니다.
+이 방에는 세 개의 편지 파일과 `plan` 이라는 지시서, `outbox/` 라는 발송함이 있습니다.
+
+먼저 cat plan 으로 지시서를 읽으세요.
+지시서가 가리키는 편지를 cp 로 outbox 안에 복사해야 합니다.
+
+사용법 예시: `cp letter_X outbox/letter_X`
+
+어느 편지를 발송했는지에 따라 갈 곳이 달라집니다:
+
+  cp letter_a outbox/letter_a  → room05 로 가세요
+  cp letter_b outbox/letter_b  → room07 로 가세요
+  cp letter_c outbox/letter_c  → room08 로 가세요
+
+복사한 뒤 ls outbox 로 확인하고, cd .. 로 start 에 돌아가서
+해당하는 room 으로 이동하세요.

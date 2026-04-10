@@ -1,0 +1,8 @@
+잘 했습니다! cp 로 파일을 복사해 봤죠?
+
+다음 목적지: room13
+
+room13 으로 가려면:
+  cd ..          (start 로 돌아가기)
+  cd room13
+  cat note
