@@ -32,10 +32,11 @@ cat note
 
 ## 처음부터 다시 하기
 
-파일을 바꿔 버렸더라도 걱정하지 마세요:
+파일을 바꿔 버렸더라도 걱정하지 마세요.
+(첫 줄은 "이 저장소의 최상위 폴더로 이동" 이라는 뜻입니다. 그대로 복사해서 붙여넣으세요.)
 
 ```bash
-cd ~
+cd "$(git rev-parse --show-toplevel)"
 git checkout world-level1
 cd start
 cat note
