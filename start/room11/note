@@ -7,13 +7,18 @@ room11 에 도착했습니다.
 손님이 원하는 금속이 들어 있는 상자를 찾아서,
 그 상자의 이름을 `delivery` 로 바꿔 주세요 (mv 사용).
 
-사용법 예시: `mv boxN delivery`
+사용법 예시:  mv boxN delivery
 
-어느 상자의 이름을 바꿨는지에 따라 갈 곳이 달라집니다:
+이름을 바꾼 뒤 ls 로 delivery 가 있는지 확인하세요.
 
-  mv box1 delivery → room12 로 가세요
-  mv box2 delivery → room15 로 가세요
-  mv box3 delivery → room14 로 가세요
+그 다음 cd .. 로 start 에 돌아가서 적절한 room 으로 이동하세요.
+정답이면 다음 방의 note 가 "정답입니다!" 로 시작합니다.
+틀리면 막다른 길에서 힌트를 얻고 다시 시도하세요.
 
-이름을 바꾼 뒤 ls 로 delivery 가 생겼는지 확인하고,
-cd .. 로 start 에 돌아가서 해당하는 room 으로 이동하세요.
+꼬였다면 처음부터 다시 시작할 수 있습니다.
+(첫 줄은 "이 저장소의 최상위 폴더로 이동" 이라는 뜻입니다.)
+
+  cd "$(git rev-parse --show-toplevel)"
+  git checkout world-level3
+  cd start/room11
+  cat note
