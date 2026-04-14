@@ -20,7 +20,7 @@ cat note
 
 ```
 cd "$(git rev-parse --show-toplevel)"
-git checkout world-level3
-cd start
+git restore level3/start/    # level3 파일을 원래대로 복원합니다
+cd level3/start
 cat note
 ```

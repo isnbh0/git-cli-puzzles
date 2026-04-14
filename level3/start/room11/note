@@ -19,6 +19,6 @@ room11 에 도착했습니다.
 (첫 줄은 "이 저장소의 최상위 폴더로 이동" 이라는 뜻입니다.)
 
   cd "$(git rev-parse --show-toplevel)"
-  git checkout world-level3
-  cd start/room11
+  git restore level3/start/room11/    # room11 파일을 원래대로 복원합니다
+  cd level3/start/room11
   cat note
