@@ -1,0 +1,8 @@
+잘 했습니다! mv 로 파일 이름을 바꿔 봤죠?
+
+다음 목적지: room11
+
+room11 로 가려면:
+  cd ..          (start 로 돌아가기)
+  cd room11
+  cat note

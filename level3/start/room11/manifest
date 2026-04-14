@@ -1,0 +1,9 @@
+창고 명세서
+
+  box1 — 금 (gold)
+  box2 — 은 (silver)
+  box3 — 동 (bronze)
+
+오늘 손님이 주문한 금속: 은 (silver)
+
+손님의 주문에 해당하는 상자를 찾아 delivery 로 이름을 바꿔 주세요.

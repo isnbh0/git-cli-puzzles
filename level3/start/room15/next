@@ -1,0 +1,8 @@
+잘 했습니다! rm 으로 파일을 지워 봤죠?
+
+다음 목적지: room06
+
+room06 으로 가려면:
+  cd ..          (start 로 돌아가기)
+  cd room06
+  cat note
